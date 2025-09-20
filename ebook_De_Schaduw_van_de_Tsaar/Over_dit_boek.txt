@@ -1,0 +1,37 @@
+Over dit boek
+
+✍️ Motivatie van de auteur
+Dit boek is ontstaan uit nieuwsgierigheid en een experiment dat uit de hand liep. Als gepensioneerde ICT’er wilde ik onderzoeken of ik zelf een e-book kon maken. Daarvoor had ik eerst een tekstbestand nodig — en dus begon ik met het bedenken van een verhaallijn, een tijdlijn, hoofdstukindeling en paragrafen voor een fictief verhaal. Wat begon als een technische uitdaging, groeide uit tot een volledig uitgewerkt manuscript. Met behulp van een zelfgeschreven Python-script heb ik het boek omgezet naar ePub-formaat, inclusief een passende cover. Gaandeweg ontdekte ik dat het verhaal zelf krachtiger werd dan het oorspronkelijke doel. Daarom bied ik het nu aan als volwaardig boek, met zorg en structuur opgebouwd — en met een verhaal dat verteld móést worden.
+
+📘 Achtergrond 
+Mijn eerste gedachten voor dit fictieve verhaal.
+
+In 1941, voor zijn huwelijk in 1948, krijgt Vladimir Kirillovitsj Romanov een zoon. Vanwege de politieke gevoeligheid van de naam Romanov noemt hij hem Dmitry Vladimirovitsj Kirillov. Binnen de familie wordt heimelijk de naam “Tsar” aan Kirillov toegevoegd – een stille verwijzing naar zijn koninklijke afkomst.
+
+Dmitry verhuist later naar Staiky, nabij Kiev, trouwt met Olena Moroz en krijgt een zoon: Alexander Dmitrijevitsj Kirillov – in werkelijkheid Alexander Dmitrijevitsj Romanov. Wanneer generaal Volodin de ware identiteit van de peuter ontdekt, eigent hij zich het kind toe en laat Dmitry omkomen bij een geënsceneerd ongeval. Alexander groeit op onder de naam Alexander Dovolin, onwetend van zijn afkomst.
+
+Jaren later ziet president Poetin een kans om zichzelf te vereeuwigen als de hersteller van het oude Rusland. Generaal Dovolin presenteert hem een geheim dossier over Alexander, waarmee Poetin een troonopvolger met tsarenbloed kan installeren.
+
+Alexander volgt een zoektocht naar identiteit, met manipulaties, geheime bijeenkomsten, flashbacks, verbanningen, een huwelijk, aanslagen...
+
+🗺️ Omslagillustratie
+De omslag is gebaseerd op kaartgegevens van OpenStreetMap © bijdragers, beschikbaar onder de Open Database License (ODbL). De kaart is visueel bewerkt om aan te sluiten bij de sfeer van het boek. Meer informatie over deze licentie is te vinden op www.openstreetmap.org/copyright
+
+📚 Publicatiegegevens
+Auteur: Jack V.
+
+Uitgever: Jack V.
+
+ISBN: ISBN-nummer niet van toepassing
+
+Eerste uitgave: september 2025
+
+Versie: 1.0
+
+🙏 Dankwoord
+Dank aan iedereen die heeft meegelezen, meegedacht of op een andere manier heeft bijgedragen aan dit project. Speciale waardering voor de technische en creatieve gemeenschap die open tools en kennis deelt — zonder hen was dit boek niet geworden wat het nu is.
+
+🛠 Technische productie
+De digitale versie van dit boek is met zorg samengesteld in EPUB-formaat. Hiervoor heb ik een eigen Python-script ontwikkeld dat de tekst en jpg cover bestanden omzet naar een gestileerde EPUB, inclusief aangepaste CSS-styling en metadata-integratie. Dit script maakt het mogelijk om op consistente wijze ebooks te genereren.
+
+Het script en enkele voorbeeldbestanden zijn beschikbaar via mijn GitHub repository: https://github.com/JackV2020/txt-text-to-epub-ebook De code en het book zijn vrijgegeven onder de Unlicense en mogen zonder restricties worden gebruikt of aangepast.

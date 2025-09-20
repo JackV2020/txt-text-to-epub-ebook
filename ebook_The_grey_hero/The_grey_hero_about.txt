@@ -1,0 +1,16 @@
+This would be an about page
+
+            Line 1 : Title
+            Line 2 : empty
+            Next lines may contain:
+            - your motivation to write the book
+            - introductory information
+            - cover information
+            - publication details (author, publisher, ISBN, date, version)
+            - acknowledgments
+            - ....
+            
+
+For this example document:
+
+Cover illustrations: Created with Copilot
