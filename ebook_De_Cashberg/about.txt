@@ -1,0 +1,43 @@
+Over dit boek
+
+✍️ Motivatie van de auteur
+
+Een vorig boek, De Schaduw van de Tsaar, is ontstaan uit nieuwsgierigheid en een experiment dat uit de hand liep. Als gepensioneerde ICT’er wilde ik onderzoeken of ik zelf een e-book kon maken. Daarvoor had ik eerst een tekstbestand nodig — en dus begon ik met het bedenken van een verhaallijn, een tijdlijn, hoofdstukindeling en paragrafen voor een fictief verhaal. Wat begon als een technische uitdaging, groeide uit tot een volledig uitgewerkt manuscript. Met behulp van een zelfgeschreven Python-script heb ik het boek omgezet naar ePub-formaat, inclusief een passende cover. Gaandeweg ontdekte ik dat het verhaal zelf krachtiger werd dan het oorspronkelijke doel. Daarom bied ik het sindsdien aan als volwaardig boek, met zorg en structuur opgebouwd — en met een verhaal dat verteld móést worden.
+
+Na dit experiment kwam de gedachte voor een volgend boek in me op en dat is wat hier nu ligt, De Cashberg.
+
+📘 Achtergrond
+
+Mijn eerste gedachten voor dit fictieve verhaal, waarin namen die overeenkomen met de werkelijkheid puur op toeval berusten.
+
+Het is oktober 2025 wanneer ik aan dit boek begin. De digitale euro zit eraan te komen en veel mensen hebben bedenkingen. Kan de overheid straks elke euro volgen en bepalen wat het doel is waar het digitale geld voor uitgegeven kan worden? Het gevoel dat de privacy aangetast wordt, is erg aanwezig, want kun je straks nog wel anoniem aankopen doen, al is het maar in een supermarkt? Er is altijd al een criminele interesse geweest in geld en dat zal niet veranderen.
+
+🗺️ Omslagillustratie
+
+Op de omslag staat een tol, opgebouwd uit een munt met een as erdoor. De spinnende beweging geeft aan dat hier alles om geld draait.
+
+📚 Publicatiegegevens
+
+Dit boek wordt gratis ter beschikking gesteld door de auteur onder een licentie die vergelijkbaar is met de Unlicense die voor zijn GitHub-projecten wordt gebruikt. Dit betekent dat iedereen het boek vrij mag kopiëren, verspreiden, aanpassen en gebruiken voor elk doel, zonder enige beperking. Er wordt geen garantie gegeven, en de auteur aanvaardt geen aansprakelijkheid voor eventuele gevolgen van het gebruik van dit boek.
+
+Als u dit boek waardeert, overweeg dan om het te delen met anderen of een recensie achter te laten. Feedback kan ook via de GitHub-repository die onderaan vermeld staat. Uw feedback en steun worden zeer gewaardeerd.
+
+Auteur: Jack V.
+
+Uitgever: Jack V.
+
+ISBN: ISBN-nummer niet van toepassing
+
+Eerste uitgave: oktober 2025
+
+Versie: 1.0
+
+🙏 Dankwoord
+
+Dank aan iedereen die heeft meegelezen, meegedacht of op een andere manier heeft bijgedragen aan dit project. Speciale waardering voor de technische en creatieve gemeenschap die open tools en kennis deelt — zonder hen was dit boek niet geworden wat het nu is.
+
+🛠 Technische productie
+
+De digitale versie van dit boek is met zorg samengesteld in EPUB-formaat. Hiervoor heb ik een eigen Python-script ontwikkeld dat de tekst- en coverbestanden omzet naar een gestileerde EPUB, inclusief aangepaste CSS-styling en metadata-integratie. Dit script maakt het mogelijk om op consistente wijze e-books te genereren.
+
+Het script en enkele voorbeeldbestanden inclusief dit boek zijn beschikbaar via mijn GitHub repository: https://github.com/jackv2020/epub-layout-tool. De code is vrijgegeven onder de Unlicense en mag zonder restricties worden gebruikt of aangepast.
