@@ -37,6 +37,11 @@ The Python script requires:
     - zipfile
   - which you may need to install like:
     - pip install ebook
+    
+Notes :
+
+ - the ebooks load just fine in the ereaders I tested so far.
+ - pumbo.nl was so kind to point me at a <a href="https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/">portable EPUB-Checker tool</a> which advises some format improvements we can work on.
 
 <hr width=75%>
 
