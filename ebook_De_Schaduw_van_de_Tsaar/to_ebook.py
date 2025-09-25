@@ -1,58 +1,14 @@
-'''
-    File    : to_ebook.py
-    Author  : Jack V.
-    Date    : 18 september 2025
-    Purpose : Create epub from 2 txt and 2 jpg files
-    Do      : Change variables : author, chapter_identifier and language
-    Usage   : python3 to_ebook.py 'book.epub' 'cover.jpg' 'back_cover.jpg' 'book.txt' 'about_book.txt'
-        - book.epub     : name of ebook to generate like The_grey_hero.epub
-        - cover.jpg     : see elephant.jpg
-        - back_cover    : see elephant.jpg
-        - book.txt      : the book see The_grey_hero.txt 
-        - about_book.txt: last chapter see The_grey_hero_about.txt
-        
-Format book.txt:
-
-    Line 1 : Book title (appears above Contents)
-    Line 2 : empty
-    Line 3 : Book subtitle (is inserted below title)
-    Line 4 : empty
-    Line 5 ....
-    at line 5 the chapters start and since I wrote this script for Dutch
-        books each chapter starts with 'Hoofdstuk'
-        When you want this script to work for your language, you want to
-        find the variable chapter_identifier in the code below and change that.
-
-Format about_book.txt:
-
-    Line 1 : Title
-    Line 2 : empty
-    Next lines may contain:
-    - your motivation to write the book
-    - introductory information
-    - cover information
-    - publication details (author, publisher, ISBN, date, version)
-    - acknowledgments
-    - ....
-
-To create the The_grey_hero.epub ebook:
-    
-    python3 to_ebook.py The_grey_hero.epub The_grey_hero.jpg The_grey_hero_mouse.jpg The_grey_hero.txt The_grey_hero_about.txt
-    
-'''
 import sys, os, shutil, tempfile, zipfile
 from ebooklib import epub
+from PIL import Image
 
 # Change author, chapter_identifier and language
-
-print("\nDid you update the variables author, chapter_identifier and language?\n")
 author='Jack V.'
-chapter_identifier='Hoofdstuk' # 'Hoofdstuk' or 'Chapter' or whatever you use
-language='nl'
+chapter_identifier='Hoofdstuk' # 'Hoofdstuk' or 'Chapter' or 'Kapitel' or 'Any_Other_String_Without_Spaces'
+language='nl' # 'nl' or 'en' or any other language
 
 # 📗 Generate ebook
 def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
-
     basic_epub_path = basic_epub_path.replace(".epub", "_basic.epub")
     
     # 📖 Read main text
@@ -62,32 +18,51 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
         print("Empty main text file.")
         return
 
-    # Extract the 3 parts we need
-    
-    book_title = lines[0].strip()
-    book_subtitle = lines[2].strip()
-    content_lines = lines[4:]
+    book_title = lines[0].strip()       # Line 1 : Book title
+    book_subtitle = lines[2].strip()    # Line 3 : Book subtitle
+    content_lines = lines[4:]           # Line 5 etc : All chapters
 
-    # Create the book
-    
+    # 📗 Create the book
     book = epub.EpubBook()
+    
     book.set_title(book_title)
-    # We can not add the subtitle, at the end we use a function to do that.
     book.add_author(author)
+    book.set_language(language)
+
+    # You can add any metadata to content.opf
+#    book.add_metadata('DC', 'publisher', 'Your name / Publisher')
+#    book.add_metadata('DC', 'date', '2025-09-25')
+#    book.add_metadata('DC', 'identifier', 'urn:uuid:...')
+#    book.add_metadata('DC', 'whatever', 'value for whatever')
+
+    # Check cover file format and extension
+    image = Image.open(cover)
+    image_format = image.format.lower()
+    image_extension = cover.split(".")[-1].lower()
+
+    # Mappingvan format -> extensions
+    allowed = {
+        "jpeg": ["jpg", "jpeg"],
+        "png": ["png"],
+        "gif": ["gif"],
+        "svg": ["svg"]
+    }
+
+    if image_format not in allowed or image_extension not in allowed[image_format]:
+        print(f"ERROR: Cover '{cover}' format '{image_format}' does not match extension '.{image_extension}'!")
+        return
 
     # 📕 First create the cover
+    
     cover_data = open(cover, 'rb').read()
-    cover_image = epub.EpubItem(uid="cover", file_name="images/cover.jpg", media_type="image/jpeg", content=cover_data)
-    book.add_item(cover_image)
-    book.set_cover(cover, cover_data)
+    book.set_cover("cover."+image_extension, cover_data)
     
-    # Create a page with the cover
-    
+    # 📘 Create a page with the cover
     cover_page = epub.EpubHtml(title='Coverpage', file_name='coverpage.xhtml', lang=language)
-    cover_page.content = '<div style="text-align: center;"><img src="images/cover.jpg" alt="Cover"/></div>'
+    cover_page.content = '<div style="text-align: center;"><img src="cover.'+image_extension+'" alt="Cover"/></div>'
     book.add_item(cover_page)
 
-    # Start to build the chapters
+    # 📚 Initialise to create the chapters
     chapters = [cover_page]
     content = ''
     chapter_title = ''
@@ -97,9 +72,10 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
     for line in content_lines:
         line = line.strip()
         if line.startswith(chapter_identifier):
+            print(line)
             if content:
                 chapter = epub.EpubHtml(title=chapter_title, file_name=f'chap_{chapter_count}.xhtml', lang=language)
-                chapter.content = f'<h2>{chapter_title}</h2>\n{content}'
+                chapter.content = f'<h2><i>{chapter_title}</i></h2>\n{content}'
                 book.add_item(chapter)
                 chapters.append(chapter)
                 content = ''
@@ -109,48 +85,67 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
             content += '<p></p>\n'
         else:
             content += f'<p>&nbsp;&nbsp;{line}</p>\n'
-
+    
     # 📘 Add last chapter from the book.txt file
     if content:
         chapter = epub.EpubHtml(title=chapter_title, file_name=f'chap_{chapter_count}.xhtml', lang=language)
-        chapter.content = f'<h2>{chapter_title}</h2>\n{content}<hr width=75%>'
+        chapter.content = f'<h2><i>{chapter_title}</i></h2>\n{content}<hr style="width:75%;" />'
         book.add_item(chapter)
         chapters.append(chapter)
 
-    if True:
-        # 📙 Add the about_book.txt
-        with open(about_path, 'r', encoding='utf-8') as f:
-            about_lines = f.readlines()        
-        about_content = ''
-        about_title=about_lines[0]
-        for line in about_lines[2:]:
-            line = line.strip()
-            if line == '':
-                about_content += '<p></p>\n'
-            else:
-                about_content += f'<p>&nbsp;&nbsp;{line}</p>\n'
+    # 📙 Add the about_book.txt
+    with open(about_path, 'r', encoding='utf-8') as f:
+        about_lines = f.readlines()
+    about_content = ''
+    about_title = about_lines[0].strip()
+    for line in about_lines[2:]:
+        line = line.strip()
+        if line == '':
+            about_content += '<p></p>\n'
+        else:
+            about_content += f'<p>&nbsp;&nbsp;{line}</p>\n'
 
-        about_chapter = epub.EpubHtml(title=about_title, file_name='about.xhtml', lang=language)
-        about_chapter.content = '<center><h2>'+about_title+'</h2>' + about_content + '<hr width=75%></center>'
-        book.add_item(about_chapter)
-        chapters.append(about_chapter)
+    about_chapter = epub.EpubHtml(title=about_title, file_name='about.xhtml', lang=language)
+    about_chapter.content = '<div style="text-align:center;"><h2>'+about_title+'</h2>' + about_content + '<hr style="width:75%;" /></div>'
+    book.add_item(about_chapter)
+    chapters.append(about_chapter)
+
+    # Check back cover file format and extension
+    image = Image.open(back_cover)
+    image_format = image.format.lower()
+    image_extension = back_cover.split(".")[-1].lower()
+
+    if image_format not in allowed or image_extension not in allowed[image_format]:
+        print(f"ERROR: Back cover '{back_cover}' format '{image_format}' does not match extension '.{image_extension}'!")
+        return
+
+    # 📗 Back cover
+    image = Image.open(back_cover)
+    # Mapping format to media types
+    mime_types = {
+        'jpeg': 'image/jpeg',
+        'png': 'image/png',
+        'gif': 'image/gif',
+        'bmp': 'image/bmp',
+        'webp': 'image/webp',
+        'tiff': 'image/tiff',
+    }
+    image_type = mime_types.get(image_format, 'application/octet-stream')  # Default is a general binary stream
 
     back_cover_img = epub.EpubItem(
         uid="back_cover_img",
-        file_name="images/back_cover.jpg",
-        media_type="image/jpeg",
+        file_name="images/back_cover."+image_extension,
+        media_type=image_type,
         content=open(back_cover, 'rb').read()
     )
     book.add_item(back_cover_img)
 
     back_cover_chapter = epub.EpubHtml(
-        title='📘',
+        title='Back Cover',
         file_name='back_cover.xhtml',
         lang=language
     )
-
-    back_cover_chapter.content = '<div style="text-align: center; margin-top: 0em;"><img src="images/back_cover.jpg" alt="BackCover" style="max-width: 100%; height: auto;" /></div>'
-
+    back_cover_chapter.content = '<div style="text-align: center;"><img src="images/back_cover.'+image_extension+'" alt="BackCover" style="max-width:100%; height:auto;" /></div>'
     book.add_item(back_cover_chapter)
     chapters.append(back_cover_chapter)
 
@@ -171,27 +166,17 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
 
     # 🧵 Create ebook
     epub.write_epub(basic_epub_path, book)
-    print(f"✅ Created intermediate EPUB '{basic_epub_path}' for: '{book_title}'")
+    print(f"\n✅ Created intermediate EPUB '{basic_epub_path}' for: '{book_title}'")
 
-    if True:
-        update_nav_title(basic_epub_path, book_title, book_subtitle)
-'''
-To insert the subtitle between the title and the contents we need to:
-- unpack the ebup which is a zip file
-- update the file 'nav.xhtm'
-- create a new zip file as the epub file 
-'''
+    update_nav_title(basic_epub_path, book_title, book_subtitle)
+
 def update_nav_title(basic_epub_path, title, subtitle):
-    
-    # 📁 Create temporary directory
     temp_dir = tempfile.mkdtemp(prefix="epub_edit_")
 
     try:
-        # 📦 Unpack EPUB in temporary directory
         with zipfile.ZipFile(basic_epub_path, 'r') as zin:
             zin.extractall(temp_dir)
 
-        # 📄 Path to nav.xhtml
         nav_path = None
         for root, dirs, files in os.walk(temp_dir):
             for file in files:
@@ -205,36 +190,42 @@ def update_nav_title(basic_epub_path, title, subtitle):
             print("nav.xhtml missing.")
             return
 
-        # 📝 Read and update nav.xhtml
         with open(nav_path, 'r', encoding='utf-8') as f:
             nav_content = f.read()
 
-        lookfor = f"<h2>{title}</h2>"
-        changeto = f"{lookfor}\n<p><em>{subtitle}</em></p>"
+        lookfor = f"<body>"
+        changeto = f"{lookfor}\n<div class=\"subtitle\"><em>{subtitle}</em></div>"
         new_nav = nav_content.replace(lookfor, changeto)
 
         with open(nav_path, 'w', encoding='utf-8') as f:
             f.write(new_nav)
 
-        # 📦 Create new EPUB
         epub_final_path = basic_epub_path.replace("_basic.epub", ".epub")
-        with zipfile.ZipFile(epub_final_path, 'w', zipfile.ZIP_DEFLATED) as zout:
-            for root, dirs, files in os.walk(temp_dir):
-                for file in files:
-                    full_path = os.path.join(root, file)
-                    rel_path = os.path.relpath(full_path, temp_dir)
-                    zout.write(full_path, rel_path)
-
+        repack_epub(temp_dir, epub_final_path)
         print(f"✅ Updated nav.xhtml and saved final EPUB: '{epub_final_path}'")
 
     finally:
-        # 🧹 Remove temporary directory and basic_epub_path
         shutil.rmtree(temp_dir)
         os.remove(basic_epub_path)
-    
+
+def repack_epub(folder, epub_path):
+    mimetype_path = os.path.join(folder, "mimetype")
+    with zipfile.ZipFile(epub_path, 'w') as zout:
+        # mimetype must be first and uncompressed
+        zout.write(mimetype_path, "mimetype", compress_type=zipfile.ZIP_STORED)
+        # all other files
+        for root, dirs, files in os.walk(folder):
+            for file in files:
+                full_path = os.path.join(root, file)
+                rel_path = os.path.relpath(full_path, folder)
+                if rel_path == "mimetype":
+                    continue
+                zout.write(full_path, rel_path, compress_type=zipfile.ZIP_DEFLATED)
+
 # 🖥️ Command-line interface
 if __name__ == '__main__':
     if len(sys.argv) < 6:
         print("\n\nUsage: python3 to_ebook.py 'book.epub' 'cover.jpg' 'back_cover.jpg' 'book.txt' 'about_book.txt'\n")
     else:
+        print(f"\n\nCreate '{sys.argv[1]}' for '{author}' in language '{language}' using chapter identifier '{chapter_identifier}'\n")
         txt_to_epub(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])

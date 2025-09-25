@@ -40,9 +40,9 @@ The Python script requires:
     
 Notes :
 
- - the ebooks load just fine in the ereaders I tested so far.
- - pumbo.nl was so kind to point me at a <a href="https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/">portable EPUB-Checker tool</a> which advises some format improvements we can work on.
-
+ - pumpo.nl was kind enough to refer me to a <a href="https://pagina.gmbh/startseite/leistungen/publishing-softwareloesungen/epub-checker/">portable EPUB-Checker tool</a> which I used to improve the script.
+ - the e-books load fine on the e-readers I've tested so far.
+ 
 <hr width=75%>
 
 There are some directories in this repository that start with 'ebook_' and these contain everything to create the ebook in it..
