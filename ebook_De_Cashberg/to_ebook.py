@@ -33,7 +33,7 @@ Format book.txt:
     Line 2 : Subtitle:Book subtitle
     Line 3 : Author:Your name
     Line 4 : Language:2 letter for the language like nl or en
-    Line 5 : Identifier: word with which you identify a chapter like Hoofdstuk or Chapter
+    Line 5 : Identifiers: semicolon seperated list of chapter identifiers like : Inleiding;Hoofdstuk;Epiloog;... or Introduction;Chapter;Epilogue;....
     Line 6 : empty
     Line 7 : the chapters start with the chapter Identifier you specified above like :
             Chapter 1 The Beginning or Hoofdstuk 1 Het begin
@@ -78,6 +78,7 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
     author = lines[2].split(":", 1)[1].strip()
     language = lines[3].split(":", 1)[1].strip()
     chapter_identifier = lines[4].split(":", 1)[1].strip()   # Chapter identifier like 'Hoofdstuk' or 'Chapter'
+    chapter_identifiers = lines[4].split(":", 1)[1].strip()   # Chapter identifier like 'Hoofdstuk' or 'Chapter'
     content_lines = lines[6:]               # Line 6 etc : All chapters
 
     # 📗 Create the book
@@ -131,7 +132,8 @@ def txt_to_epub(basic_epub_path, cover, back_cover, txt_path, about_path):
     for line in content_lines:
         line = line.strip()
         if not line.startswith('#'):
-            if line.startswith(chapter_identifier):
+            #if line.startswith(chapter_identifier):
+            if line and  line.split()[0] in chapter_identifiers.split(';'):
                 print(line)
                 if content:
                     chapter = epub.EpubHtml(title=chapter_title, file_name=f'chap_{chapter_count}.xhtml', lang=language)

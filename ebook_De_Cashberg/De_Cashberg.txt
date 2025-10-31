@@ -8,7 +8,7 @@ Hoofdstuk 1 – Frankfurt, 2035
 #
 #Sectie 1.1 De sfeer
 
-Het is vroeg in de avond van een nazomerdag in september 2035. De meteorologische herfst is net begonnen, maar de warmte van de zomer hangt nog tastbaar in de lucht. Frankfurt baadt in een gouden gloed, terwijl de zon langzaam zakt achter de skyline van de stad. De hemel is helderblauw, bezaaid met majestueuze Cumuluswolken die als bloemkolen boven de stad zweven. Hun randen zijn zacht verlicht door het zonlicht, waardoor ze lijken op luchtkastelen die zweven tussen droom en werkelijkheid.
+Het is laat in de middag van een nazomerdag in september 2035. De meteorologische herfst is net begonnen, maar de warmte van de zomer hangt nog tastbaar in de lucht. Frankfurt baadt in een gouden gloed, terwijl de zon langzaam zakt achter de skyline van de stad. De hemel is helderblauw, bezaaid met majestueuze Cumuluswolken die als bloemkolen boven de stad zweven. Hun randen zijn zacht verlicht door het zonlicht, waardoor ze lijken op luchtkastelen die zweven tussen droom en werkelijkheid.
 
 De zon speelt een spel met de wolken en de hoge gebouwen. Telkens wanneer ze even verdwijnt achter een toren of een wolkenmassa, breken lichtbundels door het firmament heen. Ze stralen als hemelse schijnwerpers, alsof ze de schoonheid van deze plek willen benadrukken. De lichtstralen dansen over het asfalt, glijden langs de gevels van moderne gebouwen en raken de bladeren van de bomen in het Rebstockpark, die zachtjes ritselen in een milde bries.
 
@@ -62,11 +62,11 @@ Hoofdstuk 2 – Verantwoordelijkheid
 #
 #Sectie 2.1 Onderweg naar huis
 
-Onderweg naar huis dwalen de gedachten van Sepp Müller af naar zijn studietijd, vijftien jaar geleden, toen hij natuurkunde studeerde aan de universiteit van Heidelberg. Het was een periode van intellectuele verwondering en jeugdige roekeloosheid. Samen met zijn studievrienden haalde hij kattenkwaad uit: een laserexperiment dat per ongeluk het brandalarm activeerde, een zelfgebouwde wiskundige puzzel die ze in het trappenhuis ophingen en waarvoor zelfs een hoogleraar zijn hoofd moest buigen.
+Onderweg naar huis dwalen de gedachten van Sepp af naar zijn studietijd, vijftien jaar geleden, toen hij natuurkunde studeerde aan de universiteit van Heidelberg. Het was een periode van intellectuele verwondering en jeugdige roekeloosheid. Samen met zijn studievrienden haalde hij kattenkwaad uit: een laserexperiment dat per ongeluk het brandalarm activeerde, een zelfgebouwde wiskundige puzzel die ze in het trappenhuis ophingen en waarvoor zelfs een hoogleraar zijn hoofd moest buigen.
 
 Wiskunde was voor Sepp geen droge formuleleer, maar een manier om de wereld te begrijpen. Hij raakte gefascineerd door de elegantie van natuurwetten en de logica achter chaos. Geld speelde in die tijd nauwelijks een rol. Hij had een bijbaantje als tutor en leefde van goedkope maaltijden in de mensa. Zijn grootste rijkdom was de vrijheid om te denken, te lachen en te leven zonder zorgen.
 
-In diezelfde collegebanken ontmoette hij Romy Fischer. Ze viel hem op door haar scherpe vragen en haar rustige zelfverzekerdheid. Na een paar gezamenlijke practica en lange avonden in de bibliotheek, groeide er iets tussen hen. Ze besloten samen op kamers te gaan, aanvankelijk uit praktische overwegingen, maar al snel werd hun gedeelde ruimte een thuis. Van het een kwam het ander, en nu – jaren later – hadden ze samen twee puberzonen die hun eigen streken uithaalden.
+In diezelfde collegebanken ontmoette hij Romy. Ze viel hem op door haar scherpe vragen en haar rustige zelfverzekerdheid. Na een paar gezamenlijke practica en lange avonden in de bibliotheek, groeide er iets tussen hen. Ze besloten samen op kamers te gaan, aanvankelijk uit praktische overwegingen, maar al snel werd hun gedeelde ruimte een thuis. Van het een kwam het ander, en nu – jaren later – hadden ze samen twee puberzonen die hun eigen streken uithaalden.
 
 Sepp glimlacht bij de herinnering aan een ochtend waarop zijn jongste zoon een zelfgebouwde katapult presenteerde als "schoolproject". Romy had hem toen streng toegesproken, maar Sepp kon zijn bewondering nauwelijks verbergen. Hij herkende zichzelf in die nieuwsgierigheid, die drang om te begrijpen en te creëren.
 
@@ -119,7 +119,7 @@ In deze context begint supermarktketen EuroBugk met het uitrollen van hun eerste
 #
 #Sectie 3.2 Nieuwe kassa bij EuroBugk
 
-In een filiaal van EuroBugk in Frankfurt wordt een nieuwe digitale euro-kassa feestelijk in gebruik genomen. De eigenaresse, Carla Vogel, is persoonlijk aanwezig bij deze mijlpaal. Naast de kassa prijkt een glanzend bordje met het opschrift "Digitale Euro – Hier actief", een initiatief van de enthousiaste bedrijfsleider die trots is op de moderne technologie.
+In een filiaal van EuroBugk in Frankfurt wordt een nieuwe digitale euro-kassa feestelijk in gebruik genomen. De eigenaresse, Carla, is persoonlijk aanwezig bij deze mijlpaal. Naast de kassa prijkt een glanzend bordje met het opschrift "Digitale Euro – Hier actief", een initiatief van de enthousiaste bedrijfsleider die trots is op de moderne technologie.
 
 Het personeel verzamelt zich rond de kassa voor een demonstratie. De bedrijfsleider legt uit hoe het systeem werkt, toont de koppeling met een tablet waarop de bankrekening zichtbaar is, en voert een testtransactie uit. De digitale euro's worden direct geboekt — een bewijs van de naadloze integratie. Vervolgens trekt hij de internetkabel uit de kassa en scant opnieuw enkele producten. Zoals verwacht verschijnen er geen nieuwe boekingen op de tablet.
 
@@ -155,13 +155,13 @@ Cash geld wordt al snel zeldzaam. Dat wordt als ongemakkelijk ervaren door mense
 
 In de meeste winkels is contant geld inmiddels niet meer beschikbaar. Geldautomaten verdwijnen uit het straatbeeld en banken beperken hun uitgifte. Eén van de weinige plekken waar nog cash te verkrijgen is, is EuroBugk. Door een slimme omweg — boodschappen doen, terugbrengen, en het terugbrengmechanisme gebruiken — kunnen klanten hun digitale euro's omzetten in fysiek geld. Weliswaar tegen een prijs: 10% administratiekosten worden standaard ingehouden.
 
-Voor sommigen is dat geen bezwaar. "Het kost wat, maar dan heb je ook wat," mompelt een man in een lange jas terwijl hij een pak rijst en een fles cola terugbrengt. Hij telt het contante geld na ontvangst, stopt het zorgvuldig in een leren portemonnee en verdwijnt zonder om te kijken. Niemand weet waar hij heen gaat, maar Carla Vogel — die alles observeert vanuit haar kantoor — noteert stilletjes het transactie-ID.
+Voor sommigen is dat geen bezwaar. "Het kost wat, maar dan heb je ook wat," mompelt een man in een lange jas terwijl hij een pak rijst en een fles cola terugbrengt. Hij telt het contante geld na ontvangst, stopt het zorgvuldig in een leren portemonnee en verdwijnt zonder om te kijken. Niemand weet waar hij heen gaat, maar Carla — die alles observeert vanuit haar kantoor — noteert stilletjes het transactie-ID.
 
 Het terugbrengmechanisme blijkt niet alleen een service voor klanten, maar ook een venster op een parallelle economie. Een economie waarin cash geld nog steeds waarde heeft — juist omdat het niet digitaal is.
 #
 #Sectie 3.6 Het casino
 
-Lukas Schmidt, baliemedewerker bij EuroBugk, heeft een routine ontwikkeld die niemand lijkt op te merken. Tijdens zijn ochtenddienst koopt hij bescheiden boodschappen: een pak rijst, een doosje thee, een rol vuilniszakken. Alles met gechashte digitale euro’s via zijn bankapp. Hij scant, betaalt, knikt vriendelijk naar de kassière en verdwijnt in het magazijn.
+Lukas, baliemedewerker bij EuroBugk, heeft een routine ontwikkeld die niemand lijkt op te merken. Tijdens zijn ochtenddienst koopt hij bescheiden boodschappen: een pak rijst, een doosje thee, een rol vuilniszakken. Alles met gechashte digitale euro’s via zijn bankapp. Hij scant, betaalt, knikt vriendelijk naar de kassière en verdwijnt in het magazijn.
 
 Later die middag, wanneer hij achter de servicebalie staat, gaat Lukas even naar het magazijn en haalt zijn eigen aankopen. Zonder een spier te vertrekken voert hij de retourprocedure uit. De bon wordt gescand, het systeem berekent het bedrag, en Lukas haalt het contante geld uit de lade. 90% van het oorspronkelijke bedrag, zoals het protocol voorschrijft. De administratiekosten worden automatisch ingehouden. Niemand stelt vragen.
 
@@ -177,7 +177,7 @@ Hoofdstuk 4 - WorldBugk
 #
 #Sectie 4.0 EuroBugk
 
-In 2025 is Carla Vogel samen met haar man Antoine Martin een supermarkt begonnen en hebben die met het oog op de komst van de digitale euro de naam EuroBugk gegeven. Al snel werd besloten uit te breiden in andere steden en dat heeft geleid tot de keten. Helaas werd de echtgenoot ongeneeslijk ziek en overleed na een kort ziekbed. Carla is nog in de rouw maar moet verder want ze heeft niet alleen de verantwoordelijkheid over een grote supermarktketen maar ook over veel personeel.
+In 2025 is Carla samen met haar man Antoine een supermarkt begonnen en hebben die met het oog op de komst van de digitale euro de naam EuroBugk gegeven. Al snel werd besloten uit te breiden in andere steden en dat heeft geleid tot de keten. Helaas werd de echtgenoot ongeneeslijk ziek en overleed na een kort ziekbed. Carla is nog in de rouw maar moet verder want ze heeft niet alleen de verantwoordelijkheid over een grote supermarktketen maar ook over veel personeel.
 
 Ondanks haar verdriet weet Carla zich te herpakken. Ze stelt een nieuw managementteam samen en investeert in digitale infrastructuur om de overgang naar de digitale euro soepel te laten verlopen. EuroBugk wordt een pionier in het accepteren van digitale betalingen en trekt daarmee veel media-aandacht. De keten groeit verder uit tot een voorbeeld van moderne retail in Europa.
 
@@ -367,7 +367,7 @@ Hoofdstuk 7 – Kiemplantje
 
 Het geld stroomt in cirkels, maar niet zoals de ECB het ooit bedoelde. Wat begon als een terugbrengservice voor klanten is uitgegroeid tot een zelfversterkend mechanisme waarin cash geld, digitale euro’s en menselijke vindingrijkheid elkaar voeden.
 
-Elke ochtend koopt Lukas Schmidt, baliemedewerker bij EuroBugk, bescheiden boodschappen met gechashte digitale euro’s. Later die dag brengt hij ze terug via de servicebalie, waar hij het contante geld ontvangt — minus de standaard 10% administratiekosten. Niemand stelt vragen. Het protocol is helder, de bonnen kloppen, en Lukas kent het systeem beter dan wie ook.
+Elke ochtend koopt Lukas, baliemedewerker bij EuroBugk, bescheiden boodschappen met gechashte digitale euro’s. Later die dag brengt hij ze terug via de servicebalie, waar hij het contante geld ontvangt — minus de standaard 10% administratiekosten. Niemand stelt vragen. Het protocol is helder, de bonnen kloppen, en Lukas kent het systeem beter dan wie ook.
 
 Maar Lukas is niet de enige. Hij heeft discreet enkele gokkers ingelicht over het "wisselkantoor" dat EuroBugk onbedoeld is geworden. Deze gokkers kopen producten, brengen ze terug, en ontvangen cash. Daarmee trekken ze naar het illegale casino in de tabakszaak op nummer 31, waar fiches worden gekocht, kaarten gedeeld en geld verloren. Of gewonnen. Maar altijd uitgegeven.
 
@@ -375,7 +375,7 @@ Het casino zelf roomt af. De cash die binnenkomt wordt deels herverdeeld, 75% vo
 
 Want de gokkers vertellen elkaar over het systeem. Er komen er meer. Sommigen gebruiken het voor spel, anderen voor schulden, weer anderen voor discretie. De administratiekosten worden geaccepteerd als tol voor anonimiteit. En Lukas? Die observeert, noteert, en blijft een schakel in het geheel. Niet als leider, niet als slachtoffer, maar als katalysator.
 
-Carla Vogel, vanuit haar kantoor, ziet de cijfers bewegen. Ze weet dat er iets groeit onder de oppervlakte — een kiemplantje van parallelle economie. Zolang het systeem draait, draait ook haar keten. En zolang de kringloop zichzelf voedt, blijft het cash geld op de WorldBugk rekeningen groeien — als schaduw, als echo, als alternatief.
+Carla, vanuit haar kantoor, ziet de cijfers bewegen. Ze weet dat er iets groeit onder de oppervlakte — een kiemplantje van parallelle economie. Zolang het systeem draait, draait ook haar keten. En zolang de kringloop zichzelf voedt, blijft het cash geld op de WorldBugk rekeningen groeien — als schaduw, als echo, als alternatief.
 
 Zo ontstaat een ecosysteem waarin geld niet alleen waarde vertegenwoordigt, maar ook gedrag, vertrouwen en geheimen. Een kringloop die niet in spreadsheets past, maar wel in verhalen. En Frankfurt, met haar skyline en haar schaduwen, is het decor waarin deze cyclus zich afspeelt — stil, efficiënt, en steeds minder toevallig.
 
@@ -481,7 +481,7 @@ Emma hangt op. De Amstel glinstert.
 #
 #Sectie 8.3 ECB medewerker 
 
-Sepp Müller had het al zien aankomen. Sinds Emma’s eerste berichten over het casino in Amsterdam had hij zijn agenda vrijgemaakt en zijn koffer gepakt. Hij wist dat Carla hem zou vragen — en hij wist ook waarom. Dit was geen gewone opdracht.
+Sepp had het al zien aankomen. Sinds Emma’s eerste berichten over het casino in Amsterdam had hij zijn agenda vrijgemaakt en zijn koffer gepakt. Hij wist dat Carla hem zou vragen — en hij wist ook waarom. Dit was geen gewone opdracht.
 
 Wanneer Carla hem belt, neemt hij op met een kort: “Ik ben er klaar voor.”
 
@@ -668,7 +668,7 @@ Hoofdstuk 10 – Cashberg
 #
 #Sectie 10.1 cash issue
 
-Uitgerust en lekker opgeladen door de break in Rome zit Carla Vogel in haar kantoor op de bovenste verdieping van het WorldBugk-hoofdkantoor. De zon valt schuin door de ramen, haar espresso dampt nog licht. Ze denkt terug aan die middag op het terras aan de Piazza Navona, waar ze met een glas witte wijn de bedrijvigheid gadesloeg. Rome had haar rust gebracht, maar ook nieuwe ideeën. Ideeën over uitbreiding, over consolidatie, over controle.
+Uitgerust en lekker opgeladen door de break in Rome zit Carla in haar kantoor op de bovenste verdieping van het WorldBugk-hoofdkantoor. De zon valt schuin door de ramen, haar espresso dampt nog licht. Ze denkt terug aan die middag op het terras aan de Piazza Navona, waar ze met een glas witte wijn de bedrijvigheid gadesloeg. Rome had haar rust gebracht, maar ook nieuwe ideeën. Ideeën over uitbreiding, over consolidatie, over controle.
 
 In de buurt van de meeste supermarkten is inmiddels een casino onder hun bescherming gekomen. De formule werkt: discretie, rendement, loyaliteit. Het laatste casino dat ze hebben opgenomen in het netwerk bevindt zich in Parijs, op nummer 59 van een brede winkelstraat. De façade is die van een souvenirwinkel — toeristisch, onopvallend. Achterin, voorbij de rekken met sleutelhangers en miniatuur-Eiffeltorens, bevindt zich een deur zonder opschrift. Daarachter ligt het casino.
 
@@ -1098,7 +1098,7 @@ Enrico zit met gevouwen handen, zijn blik strak op het tafelblad. Julien schuift
 
 “Wie is ‘De Vries’? Wie is ‘Mama’? En waarom loopt er een lijn naar een filiaal in Utrecht?”
 
-Enrico zucht. “De Vries is een accountant. Hij weet hoe je cijfers laat verdwijnen. Mama is Sofia Moretti. Maar dat weet je al.”
+Enrico zucht. “De Vries is een accountant. Hij weet hoe je cijfers laat verdwijnen. Mama is ene Sofia. Maar dat weet je al.”
 
 Julien tikt op het scherm. “En Utrecht?”
 
@@ -1116,7 +1116,7 @@ Julien zit nog in zijn kantoor als de glazen deur opengaat en zijn leidinggevend
 
 "We moeten het team opheffen," zegt hij zonder omhaal. "Budgetten zijn krap. Als we dit jaar geen tastbare resultaten boeken, krijgen we volgend jaar geen verlenging. Targets zijn leidend."
 
-Julien blijft kalm, maar zijn kaakspieren spannen zich. Hij schuift een rapport naar voren, met de voorlopige structuur van het netwerk, inclusief de naam Sofia Moretti.
+Julien blijft kalm, maar zijn kaakspieren spannen zich. Hij schuift een rapport naar voren, met de voorlopige structuur van het netwerk, inclusief de naam Sofia.
 
 "We hebben een ingang," zegt hij. "Enrico praat. We hebben locaties, namen, structuren. Geef me nog een week."
 
@@ -1142,7 +1142,7 @@ Julien volgt alles via het scherm. Eén voor één verschijnen de meldingen: “
 
 Enrico wordt overgebracht naar een veilige locatie. Zijn vrouw en kinderen zijn al onderweg, onder een andere naam, naar een ander land. Hij kijkt niet achterom.
 
-Sofia Moretti wordt opgepakt. Haar kantoor is leeg, haar tablet gewist, haar laptop lag al in haar auto. Alleen een handgeschreven brief ligt op haar bureau: “Sommige systemen zijn sterker dan hun ontwerp. Tot ziens.” Ze waren binnengevalen op het moment dat ze het briefje weglegde, ze waren net op tijd.
+Sofia wordt opgepakt. Haar kantoor is leeg, haar tablet gewist, haar laptop lag al in haar auto. Alleen een handgeschreven brief ligt op haar bureau: “Sommige systemen zijn sterker dan hun ontwerp. Tot ziens.” Ze waren binnengevalen op het moment dat ze het briefje weglegde, ze waren net op tijd.
 
 Julien leest de brief en zegt niets. Hij weet dat dit geen einde is — slechts een pauze. Dit netwerk is opgerold, een ander zal binnenkort opdoemen.
 
@@ -1435,7 +1435,7 @@ Hoofdstuk 21 – Bekentenis
 #
 #Sectie 21.1 dageraad
 
-Het is vroeg in de ochtend van maandag 3 september, een mooie nazomerdag in 2025. De meteorologische herfst is net begonnen. Er is een stralend blauwe lucht met mooie Cumuluswolken die als grote bloemkolen in de lucht hangen. Wanneer de zon er even achter tevoorschijn komt lijken er lichtbundels uit de hemel te stralen om aan te geven hoe mooi de dag zal worden.
+Het is vroeg in de ochtend van vrijdag 7 september, een mooie nazomerdag in 2035. De meteorologische herfst is net begonnen. Er is een stralend blauwe lucht met mooie Cumuluswolken die als grote bloemkolen in de lucht hangen. Wanneer de zon er even achter tevoorschijn komt lijken er lichtbundels uit de hemel te stralen om aan te geven hoe mooi de dag zal worden.
 
 De stad ligt nog in rust, slechts enkele vroege fietsers en joggers bewegen zich door de stille straten. De lucht is fris, met een lichte geur van dauw en nat gras. De eerste vogels beginnen hun ochtendliederen, een zacht gefluit dat zich mengt met het verre gerinkel van een tram.
 
@@ -1477,7 +1477,7 @@ EuroBugk, haar levenswerk, lijkt plotseling onbereikbaar. De doemscenario's raze
 
 Carla keert terug naar de woonkamer.
 
-Carla zegt: "Julien, ik weet waar Karel de Grote staat. Hij staat op de Alte Brücke, laten we samen gaan kijken." Op de brug aangekomen wijst ze hem het standbeeld aan. "En kijk," zegt ze, "dat gebouw is Portikus en is van mij. Laten we even binnen kijken." Ze laat het gebouw zien: de omloop boven en de glazen stenen in de zoldervloer. Daarna de benedenverdieping waar een schrijver logeert en haar administratieruimte is waarvan ze helaas de sleutels niet bij heeft. Beneden is nog een ruimte die nooit gebruikt wordt vanwege hoog water dat wel eens voorkomt. Ze wil ook het ganzeneiland tonen.
+Carla zegt glimlachend: "Julien, ik weet waar Karel de Grote staat. Hij staat op de Alte Brücke, laten we samen gaan kijken." Op de brug aangekomen wijst ze hem het standbeeld aan. "En kijk," zegt ze, "dat gebouw is Portikus en is van mij. Laten we even binnen kijken." Ze laat het gebouw zien: de omloop boven en de glazen stenen in de zoldervloer. Daarna de benedenverdieping waar een schrijver logeert en haar administratieruimte is waarvan ze helaas de sleutels niet bij heeft. Beneden is nog een ruimte die nooit gebruikt wordt vanwege hoog water dat wel eens voorkomt. Ze wil ook het ganzeneiland tonen.
 
 Daarvoor gaan ze vanuit de gang langs de administratie naar buiten en een trap af. Ze wijst op de oude put en laat Julien de put openmaken. Hij kijkt in de put, denkt dat er daaronder iets is, een schoen of zo. Hij bukt om het beter te kunnen zien. Er klinkt een doffe knal en hij valt in de put die al eeuwen alles oplost en laat verdwijnen in de Main.
 
